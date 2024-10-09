@@ -13,6 +13,7 @@ var characters = [{
   name: 'лучник',
   health: 0
 }];
+// eslint-disable-next-line no-unused-vars
 var alive = characters.filter(function (item) {
   return item.health > 0;
 });
